@@ -27,8 +27,6 @@ class Point:
     def show(self):
         return f'({self.x}, {self.y})'
 
-
-# 테스트 코드
 if __name__ == '__main__':
     r1 = Rectangle(5, 5, 20, 10)
     a = r1.getArea()
